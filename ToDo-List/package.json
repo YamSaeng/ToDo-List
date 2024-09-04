@@ -1,0 +1,24 @@
+{
+  "name": "to-do-list",
+  "version": "0.0.0",
+  "description": "ToDo-List",
+  "main": "app.js",
+  "author": {
+    "name": ""
+  },
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write *.js **/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "prettier": "^3.3.3"
+  },
+  "eslintConfig": {},
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.6.0"
+  }
+}
